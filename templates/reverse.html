@@ -6,6 +6,11 @@
 <body>
 	<h1>Vice Versa Project</h1>
 	<h2>Home Page</h2>
+	<p>You typed: "{{usertext}}"</p>
+	<p>Reversed text is: "{{reversedtxt}}"</p>
+	<form action="{% url 'homepage' %}">
+		<input type="Submit" value="Go to Homepage!">
+	</form>
 
 </body>
 </html>
